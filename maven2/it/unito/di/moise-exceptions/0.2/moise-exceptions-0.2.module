@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "it.unito.di",
+    "module": "moise-exceptions",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "moise-exceptions-0.2.jar",
+          "url": "moise-exceptions-0.2.jar",
+          "size": 661428,
+          "sha512": "bb6aa731b7daf10e99cfe9a1c91272e725ba073b3788b00ca1de825cbe4be09bfd9004dbea66f536f36749836cc84a751d56291b3859c04d84606f895d128218",
+          "sha256": "034d53485e52c4c2fe1be2614df9da2ddad824c6cd2b8e1898452cf86fc7fbc4",
+          "sha1": "8e5f45cb38fdd765c3dd551a0e7aa50877395de7",
+          "md5": "819b25f8c23d684d5ab822fe84bc3e01"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.+"
+          }
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moise-exceptions-0.2.jar",
+          "url": "moise-exceptions-0.2.jar",
+          "size": 661428,
+          "sha512": "bb6aa731b7daf10e99cfe9a1c91272e725ba073b3788b00ca1de825cbe4be09bfd9004dbea66f536f36749836cc84a751d56291b3859c04d84606f895d128218",
+          "sha256": "034d53485e52c4c2fe1be2614df9da2ddad824c6cd2b8e1898452cf86fc7fbc4",
+          "sha1": "8e5f45cb38fdd765c3dd551a0e7aa50877395de7",
+          "md5": "819b25f8c23d684d5ab822fe84bc3e01"
+        }
+      ]
+    }
+  ]
+}

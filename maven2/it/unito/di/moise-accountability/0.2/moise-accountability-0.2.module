@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "it.unito.di",
+    "module": "moise-accountability",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "moise-accountability-0.2.jar",
+          "url": "moise-accountability-0.2.jar",
+          "size": 371683,
+          "sha512": "99896c2215f172762d1b42eff477834b1bd260081fdc95c7c67e6d79f3777f26664b45f2ab808f1f62f30e85c441bbbdadfcfd55188d83f7f680f0fe93eab710",
+          "sha256": "3011e8fbdcdaa5e4d11faba0d0566c82ef0d78a97695097eec643d61abb2b938",
+          "sha1": "dcdc77f68584801cb793d34c86b5422a41cbe65b",
+          "md5": "ab5804b8b13b1a35cf242a58abd50fea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.+"
+          }
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moise-accountability-0.2.jar",
+          "url": "moise-accountability-0.2.jar",
+          "size": 371683,
+          "sha512": "99896c2215f172762d1b42eff477834b1bd260081fdc95c7c67e6d79f3777f26664b45f2ab808f1f62f30e85c441bbbdadfcfd55188d83f7f680f0fe93eab710",
+          "sha256": "3011e8fbdcdaa5e4d11faba0d0566c82ef0d78a97695097eec643d61abb2b938",
+          "sha1": "dcdc77f68584801cb793d34c86b5422a41cbe65b",
+          "md5": "ab5804b8b13b1a35cf242a58abd50fea"
+        }
+      ]
+    }
+  ]
+}
